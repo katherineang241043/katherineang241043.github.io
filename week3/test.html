@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-image: url(images/city.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /*
+            background-color: rgb(220, 210, 211);
+            padding: 20px;
+            */
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+            /*
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            */
+            margin: 80px;
+            background: linear-gradient(to right,
+                    rgb(220, 210, 211),
+                    rgb(245, 242, 242));
+            padding: 20px;
+            /*
+            border: 1px solid rgb(52, 52, 52);
+            */
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(52, 52, 52);
+            border-radius: 20px 10px 20px 10px;
+        }
+
+        p.gradient {
+            background: linear-gradient(to right,
+                    rgb(220, 210, 211),
+                    rgb(232, 211, 118));
+        }
+
+        span {
+            color: rgb(63, 137, 148);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        span.red {
+            color: rgb(255, 0, 0);
+            font-weight: normal;
+        }
+
+        p.images {
+            text-align: center;
+            border: none;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My City</h1>
+    <p>This is a description of my city.This is a description of my city.This is a description of my city.This is a
+        description of my city.This is a description of my city.This is a description of my city.This is a description
+        of my city.This is a description of my city.This is a description of my city.</p>
+    <p class="gradient">This is a description of my city.This is a description of my city.This is a description of my
+        city.This is a
+        description of my city.This is a description of my city.This is a description of my city.This is a description
+        of my city.This is a description of my city.This is a description of my city.</p>
+    <p>This is a description of <span>my city</span>.This is a description of my city.This is a description of my
+        city.This is a
+        description of my city.This is a description of my city.This is a description of my city.This is a description
+        of my city.This is a description of my city.This is a description of my city.</p>
+    <p>This is a description of <span class="red">my city</span>.This is a description of my city.This is a description
+        of my
+        city.This is a
+        description of my city.This is a description of my city.This is a description of my city.This is a description
+        of my city.This is a description of my city.This is a description of my city.</p>
+    <p class="images"><img src="images/city.jpg" alt="city" width="180"><br /><a href="http://www.google.com">Google</a>
+    </p>
+
+</body>
+
+</html>

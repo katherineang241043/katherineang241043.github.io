@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container {
+            display: flex;
+            /*direction of childen*/
+
+            flex-direction: column;
+            /*horizontal(row) aligment(column)*/
+
+            justify-content: flex-end;
+            /*space-between,space-evenly*/
+            /*vertical(column) aligment(row)*/
+
+            align-items: center;
+            /*flex-end,flex-start*/
+            /*child aligment*/
+
+            gap: 10px;
+            min-height: 200px;
+            /*background: linear-gradient(to right, #eece77, #f0e9b9);*/
+            background-image: url(images/city.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        <div class="item4">Item 4</div>
+        <div class="item5">Item 5</div>
+    </div>
+</body>
+
+</html>
