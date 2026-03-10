@@ -10,37 +10,38 @@
     body {
         font-family: Arial, sans-serif;
         padding: 8px 16px;
-        margin: 30px 100px;
+        margin: 10px 70px;
     }
 
     div.header {
         display: flex;
         justify-content: space-between;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     div.menu_container {
         display: flex;
-        gap: 70px;
+        gap: 43px;
         align-items: center;
-        font-size: 23px;
+        font-size: 18px;
+        letter-spacing: 2px;
     }
 
     div.button_request {
         border: solid 1px black;
         border-radius: 12px;
-        padding: 20px 43px;
+        padding: 22px 35px;
     }
 
     div.text {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 100px;
+        margin-block: 40px;
 
     }
 
     div.text h1 {
-        font-size: 90px;
+        font-size: 70px;
         line-height: 1.2;
 
     }
@@ -49,7 +50,7 @@
         margin-top: -25px;
         letter-spacing: 2px;
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     div.text button {
@@ -57,12 +58,8 @@
         color: white;
         font-size: 22px;
         border-radius: 15px;
-        margin-top: 20px;
-        padding: 23px 58px;
-    }
-
-    div.text img {
-        margin-top: 62px;
+        margin-top: 18px;
+        padding: 23px 55px;
     }
 
     div.apps {
@@ -73,12 +70,34 @@
     div.apps img {
         width: 140px;
     }
+
+    div.image {
+        width: 50%;
+    }
+
+    div.text_left {
+        width: 50%;
+    }
+
+    div.moblie_menu {
+        display: none;
+    }
+
+    @media screen and (max-width: 1350px) {
+        div.menu_container {
+            display: none;
+        }
+
+        div.moblie_menu {
+            display: block;
+        }
+    }
 </style>
 
 <body>
     <div class="header">
         <div>
-            <h1><img src="images/Vector.png" alt="vector" width="40">
+            <h1><img src="images/Vector.png" alt="vector" width="33">
                 Positivus</h1>
         </div>
 
@@ -90,21 +109,20 @@
             <div class="menu_blog">Blog</div>
             <div class="button_request">Request a quote</div>
         </div>
+        <div class="moblie_menu">=</div>
     </div>
     <div class="text">
-        <div>
-            <h1>Navigating the<br>digital landscape<br>for success</h1>
+        <div class="text_left">
+            <h1>Navigating the digital landscape for success</h1>
             <p>
-                Our digital marketing agency helps businesses<br />grow and succeed online through a
-                range
-                of
-                <br />services including SEO, PPC, social media marketing,<br />and content creation.
+                Our digital marketing agency helps businesses grow and succeed online through a
+                range of services including SEO, PPC, social media marketing,and content creation.
             </p>
             <button class="book_button">Book a consultation</button>
         </div>
 
-        <div>
-            <img src="images/Illustration.png" alt="illustration" width="740px">
+        <div class="image">
+            <img src="images/Illustration.png" alt="illustration" width="100%">
         </div>
     </div>
 
