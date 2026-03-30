@@ -149,10 +149,8 @@ div.ourworkingprocess_content_title {
     font-weight: 500;
 }
 
-/*tocopy*/
+/* team */
 
-/*ourworkingprocess_card*/
-/*team_intro*/
 div.team_ {
     display: flex;
     gap: 50px;
@@ -176,8 +174,6 @@ div.team_intro {
     align-items: center;
 }
 
-/*team_intro*/
-/*team_card*/
 div.team_frame_first {
     display: flex;
     justify-content: space-between;
