@@ -37,7 +37,7 @@
  }
 
  div.mobile_menu {
-     width: 60px;
+     display: none;
  }
 
  /* down */
