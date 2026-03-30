@@ -310,9 +310,9 @@ button.see_all_team {
         display: block;
         background-color: #F3F3F3;
         border: 2px solid #000000;
-        padding: 60px;
+        padding: 30px;
         box-shadow: 0px 5px;
-        border-radius: 50px;
+        border-radius: 32px;
         margin-bottom: 20px;
     }
 
