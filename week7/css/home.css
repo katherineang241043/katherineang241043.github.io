@@ -267,16 +267,12 @@
         @media screen and (max-width:1080px) {
 
             div.mobile_menu {
-                width: 10%
+                width: 10%;
             }
 
             h1.logo {
-                width: 5vw;
-                font-size: 100%;
-            }
-
-            div.logo {
-                font-size: 5vw;
+                width: 50px;
+                font-size: 55px;
             }
 
             div.company_2 {
@@ -293,7 +289,7 @@
                 color: #ffffff;
                 border-radius: 2.5vw;
                 padding: 1px 30px;
-                margin-top: 50px;
+                margin-top: 40px;
                 text-align: center;
             }
 
@@ -302,10 +298,10 @@
             }
 
             div.content_image {
-                width: 80vw;
+                width: 100%;
             }
 
-            /* hide */
+            /* none */
 
             div.service {
                 display: none;

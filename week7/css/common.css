@@ -6,7 +6,7 @@
  }
 
  body {
-     margin: 20px 6%;
+     margin: 20px 50px;
      font-family: "Space Grotesk", sans-serif;
  }
 
@@ -37,5 +37,125 @@
  }
 
  div.mobile_menu {
-     width: 5%;
+     width: 60px;
+ }
+
+ /* 整体页脚容器 */
+ .footer-container {
+     background-color: #191a23;
+     color: white;
+     padding: 50px 60px;
+     border-radius: 40px 40px 0 0;
+     font-family: 'Inter', sans-serif, Arial;
+ }
+
+ /* 顶部对齐：Logo、菜单、社交 */
+ .footer-top-row {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+ }
+
+ .footer-logo {
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .footer-menu {
+     display: flex;
+     gap: 25px;
+ }
+
+ .menu-item {
+     text-decoration: underline;
+     cursor: pointer;
+     font-size: 15px;
+ }
+
+ .social-links-group {
+     display: flex;
+     gap: 12px;
+ }
+
+ .social-dot {
+     background-color: white;
+     color: #191a23;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     font-size: 14px;
+     cursor: pointer;
+ }
+
+ /* 中间内容布局 */
+ .footer-main-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+ }
+
+ .contact-heading {
+     background-color: #b9ff66;
+     color: black;
+     display: inline-block;
+     padding: 4px 12px;
+     border-radius: 6px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ .contact-text {
+     margin: 8px 0;
+     font-size: 14px;
+     line-height: 1.6;
+ }
+
+ /* 订阅卡片样式 */
+ .newsletter-card {
+     background-color: #292a32;
+     padding: 35px 40px;
+     border-radius: 18px;
+     display: flex;
+     gap: 20px;
+ }
+
+ .email-field-mock {
+     border: 1px solid white;
+     border-radius: 12px;
+     padding: 12px 25px;
+     min-width: 240px;
+     color: #888;
+     cursor: text;
+ }
+
+ .subscribe-action {
+     background-color: #b9ff66;
+     color: black;
+     padding: 12px 30px;
+     border-radius: 12px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ /* down */
+ .footer-divider-line {
+     border-top: 1px solid #444;
+     margin-bottom: 25px;
+ }
+
+ .footer-bottom-row {
+     display: flex;
+     gap: 40px;
+     font-size: 14px;
+ }
+
+ .legal-link {
+     text-decoration: underline;
+     cursor: pointer;
  }
