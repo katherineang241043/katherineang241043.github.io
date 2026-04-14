@@ -9,8 +9,12 @@
 :root {
     --color-text-dark: #1c1c1c;
     --color-text-light: #383838;
-    --color-menu-active: #18b26f;
 
+    --color-menu-active: #18b26f;
+    --button_accent_color: #383838;
+    --button_border_color: #e0e0e0;
+    --color-box-shadow: #ddd;
+    --color-hd-bg: #F7FEF6;
     --color-btn-bg-green: #0c5a38;
     --color-btn-greentext: #ffffff;
     --color-btn-bg-yellow: #fbe12e;
@@ -21,13 +25,11 @@
     --color-btn-lightgreentext: #2b2b2b;
     --color-btn-white: #ffffff;
     --color-btn-bg-whitetext: #1c1c1c;
-    --button_accent_color: #383838;
-    --button_border_color: #e0e0e0;
-    --color-box-shadow: #ddd;
 
     --color-link: #18b26f;
     --color-link-hover: #383838;
-    --color-bg-light: #f9f9f9;
+    --color-bg-light: #ffffff;
+
     --box-radius: 8px;
     --font-heading: Bricolage Grotesque, sans-serif;
     --font-base: Bricolage Grotesque, sans-serif;
@@ -44,7 +46,7 @@ body {
 
 /* header */
 div.header {
-    background-color: #F7FEF6;
+    background-color: var(--color-hd-bg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,6 +73,7 @@ div.logo {
 #main-menu .menu-item.menu-active a {
     text-decoration: underline;
     text-decoration-color: #18b26f;
+    text-underline-offset: 7px;
     color: #383838;
     font-size: 17px;
 }
@@ -90,6 +93,11 @@ div.logo {
 .submenu a {
     display: block;
     padding: 5px;
+    text-decoration: none;
+    color: #212934;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: var(--color-bg);
 }
 
 .has-submenu>a::after {
@@ -260,6 +268,7 @@ p.body8 {
 
 /* link */
 a {
+    text-decoration: none;
     color: var(--color-link);
     text-decoration: underline;
     font-weight: 300;
@@ -280,11 +289,8 @@ img {
 }
 
 /* buttons */
-
 button.btn {
     display: inline-flex;
-    background: var(--color-btn-bg);
-    color: #fff;
     padding: 20px 32px;
     border-radius: var(--box-radius);
     border: none;
@@ -293,7 +299,6 @@ button.btn {
     cursor: pointer;
     gap: 8px;
     margin: 20px;
-    outline: none;
 }
 
 button.btn.hire_a_talent {
@@ -341,21 +346,13 @@ button.btn.subscribe:hover {
 button.btn.get_started {
     background-color: var(--color-btn-bg-white);
     color: var(--color-btn-bg-yellowtext);
-    border: 2px solid #383838;
+    border: 1px solid #2b2b2b;
 }
 
 button.btn.get_started:hover {
     background-color: var(--color-btn-bg-yellow);
     color: var(--color-btn-bg-yellowtext);
     border: none;
-}
-
-button.btn.get_started.right-down_white {
-    display: none;
-}
-
-button.btn.get_started:hover.right-down {
-    display: inline-block;
 }
 
 .btn a {
